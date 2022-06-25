@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0 30px;
+  font-family: "Poppins";
+  background: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+.App {
+  font-size: 1.2em;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #be2ad6;
+  border-bottom: 1px dotted;
+}
+
+.site-header h1 {
+  font-size: 3.5em;
+  color: #ff9642;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/*Review Page*/
+
+.review-card {
+  background: white;
+  margin: 60px auto;
+  padding: 1px 20px 20px 90px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.review-card .rating {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  font-size: 3em;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: white;
+  border-radius: 15px 0px 70px;
+}
+
+.review-card h2 {
+  margin-bottom: 0;
+}
+
+.review-card small {
+  margin-right: 10px;
+  color: #444;
+}
+
+.site-header .categories {
+  text-align: right;
+}
+
+.site-header .categories a {
+  margin-left: 10px;
+}
